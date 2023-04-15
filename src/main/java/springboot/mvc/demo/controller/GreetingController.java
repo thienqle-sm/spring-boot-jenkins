@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class GreetingController {
 
 	//http://localhost:8080/greeting?name=Test
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String home() {
 		
 		return "index";
