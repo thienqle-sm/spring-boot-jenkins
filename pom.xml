@@ -46,7 +46,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>spring-boot-mvc-demo</finalName>
+		<finalName>spring-boot-mvc-pipeline</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
