@@ -23,7 +23,7 @@ pipeline {
         echo 'deploying the application ....'
         bat """
           whoami
-          copy spring-boot-mvc-pipeline.war "C:\\Tomcat 8.5\\webapps"
+          copy \spring-boot-pipeline\\target\\spring-boot-mvc-pipeline.war "C:\\Tomcat 8.5\\webapps"
         """
       }
     }
