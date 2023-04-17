@@ -14,7 +14,7 @@ pipeline {
       steps {
         echo 'testing the application ....'
         bat """
-          cmd /c "mvnw test -Punit"
+          cmd /c "mvn test -Punit"
         """
       }
     }
