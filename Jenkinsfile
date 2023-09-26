@@ -23,7 +23,7 @@ pipeline {
            steps {
               echo 'deploying the application ....'
              bat """
-                copy target\\sping-boot-mvc-demo.war "c:\\Tomcat 8.5\\webapps"
+                copy target\\spring-boot-mvc-demo.war "c:\\Tomcat 8.5\\webapps"
               """
            }
     }
